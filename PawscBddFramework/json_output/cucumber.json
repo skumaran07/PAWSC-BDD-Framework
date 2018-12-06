@@ -1,0 +1,91 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 22,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 18823825331,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "open the browser",
+            "match": {
+              "location": "homeSteps.user_open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10377370728,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "username and password for login",
+            "match": {
+              "location": "homeSteps.enter_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10283105522,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Select Technical inforamtion menu from  left navigation",
+            "match": {
+              "location": "techInfostep.select_Technical_inforamtion_menu_from_left_navigation()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "Verify that Device Type tab is selected or not",
+        "description": "",
+        "id": "verify-that-technician-modules-is-work;verify-that-device-type-tab-is-selected-or-not",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 29471258,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Check the Device Type tab is selected",
+            "match": {
+              "location": "techInfostep.check_the_Device_Type_tab_is_selected()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 371543247,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "close browser",
+            "match": {
+              "location": "homeSteps.close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verify that technician modules is work",
+    "description": "",
+    "id": "verify-that-technician-modules-is-work",
+    "keyword": "Feature",
+    "uri": "C:/Users/WMS/workspace/PawscBddFramework/src/main/java/com/qa/Features/techInfo.feature"
+  }
+]

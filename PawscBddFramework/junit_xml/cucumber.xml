@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="39.908138">
+<testcase classname="Verify that technician modules is work" name="Verify that Device Type tab is selected or not" time="39.908138">
+<system-out><![CDATA[Given open the browser......................................................passed
+When username and password for login........................................passed
+Then Select Technical inforamtion menu from  left navigation................passed
+When Check the Device Type tab is selected..................................passed
+Then close browser..........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
